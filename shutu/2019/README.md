@@ -1,6 +1,7 @@
 # [书图寻意](http://shutuxunyi.sisopipo.com)
 
 ## 2019
+* [家长会感悟](/shutu/2019/20191012-inspiration-of-parents-meeting), wongoo, 2019-10-12
 * [程度、范围的意思](/shutu/2019/20191011-level-and-scope), wongoo, 2019-10-11
 * [露营](/shutu/2019/20191004-camping), wongoo, 2019-10-04
 * [权衡](/shutu/2019/20191001-judge), wongoo, 2019-10-01
