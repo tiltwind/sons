@@ -3,4 +3,5 @@
 ## shutu
 
 ## Navigation
+[2018](/shutu/2018/)
 [2019](/shutu/2019/)

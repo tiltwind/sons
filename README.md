@@ -8,6 +8,7 @@
 
 ## Categories
 
+ [经验](/category/经验)
  [记录](/category/记录)
  [成长](/category/成长)
  [伤病](/category/伤病)
@@ -16,6 +17,7 @@
 
  [书图](/tag/书图)
  [成长](/tag/成长)
+ [教育](/tag/教育)
  [露营](/tag/露营)
  [妹妹](/tag/妹妹)
  [感触](/tag/感触)
