@@ -43,3 +43,5 @@ markmeta_tags: 书图,成长
 当然最后告诉他： `爸爸妈妈是爱你的，希望你变得越来越好!`
 
 
+![](static/20191022-write-self-name.jpeg)
+
