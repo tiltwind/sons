@@ -1,6 +1,9 @@
 # [书图寻意](http://shutuxunyi.sisopipo.com)
 
 ## 2019
+* [书图存在的问题(妈妈在学校的观察)](/shutu/2019/20191104-problem-in-school), wongoo, 2019-11-04
+* [秋游](/shutu/2019/20191103-autumn-travel), wongoo, 2019-11-03
+* [上学规则](/shutu/2019/20191101-rules-in-school), wongoo, 2019-11-01
 * [不允许吃饭](/shutu/2019/20191023-not-allow-to-eat), wongoo, 2019-10-23
 * [不遵守规则的惩罚](/shutu/2019/20191022-punishment), wongoo, 2019-10-22
 * [家长会感悟](/shutu/2019/20191012-inspiration-of-parents-meeting), wongoo, 2019-10-12
