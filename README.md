@@ -3,11 +3,13 @@
 ## sons
 
 ## Navigation
+[medicine](/medicine/)
 [shutu](/shutu/)
 [xunyi](/xunyi/)
 
 ## Categories
 
+ [医学](/category/医学)
  [经验](/category/经验)
  [记录](/category/记录)
  [成长](/category/成长)
@@ -15,6 +17,7 @@
 
 ## Tags
 
+ [发烧](/tag/发烧)
  [书图](/tag/书图)
  [成长](/tag/成长)
  [教育](/tag/教育)
