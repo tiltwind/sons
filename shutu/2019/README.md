@@ -1,6 +1,7 @@
 # [书图寻意](http://shutuxunyi.sisopipo.com)
 
 ## 2019
+* [华夏学校面试问题反馈](/shutu/2019/20191228-mingde-interview), wongoo, 2019-12-28
 * [书图存在的问题(妈妈在学校的观察)](/shutu/2019/20191104-problem-in-school), wongoo, 2019-11-04
 * [秋游](/shutu/2019/20191103-autumn-travel), wongoo, 2019-11-03
 * [上学规则](/shutu/2019/20191101-rules-in-school), wongoo, 2019-11-01

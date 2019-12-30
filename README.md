@@ -10,8 +10,8 @@
 ## Categories
 
  [医学](/category/医学)
- [经验](/category/经验)
  [记录](/category/记录)
+ [经验](/category/经验)
  [成长](/category/成长)
  [伤病](/category/伤病)
 
@@ -21,6 +21,7 @@
  [细菌](/tag/细菌)
  [发烧](/tag/发烧)
  [书图](/tag/书图)
+ [习惯](/tag/习惯)
  [成长](/tag/成长)
  [教育](/tag/教育)
  [露营](/tag/露营)
