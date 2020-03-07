@@ -36,7 +36,7 @@
   </style>
 </head>
 
-<body>
+<body onbeforeunload="check_unnload()">
   <table id="math_table">
     <tr>
       <th>NO.</th>
@@ -55,6 +55,14 @@
 
 </html>
 <script type="text/javascript">
+  function check_unload(e)
+  {
+    var e = window.event || e;
+    e.returnValue = ("确定离开当前页面吗？");
+  }
+
+  window.onbeforeunload = check_unload;
+
   function init_page()
   {
     var mathTable = document.getElementById("math_table");
