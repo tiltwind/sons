@@ -1,6 +1,11 @@
 <html>
 
 <head>
+  <style type="text/css" media="print">
+    .noprint {
+      display: none;
+    }
+  </style>
   <style type="text/css">
     body {
       text-align: center;
@@ -41,7 +46,7 @@
     <tr>
       <th>NO.</th>
       <th>First</th>
-      <th>Op</th>
+      <th>OP</th>
       <th>Second</th>
       <th>Equal</th>
       <th>Result</th>
@@ -49,7 +54,8 @@
     </tr>
   </table>
   <br>
-  <button onclick="check()">check</button>
+  <button class="noprint" onclick="window.print()">print</button>
+  <button class="noprint" onclick="check()">check</button>
   <font id="check_result" color="blue"></font>
 </body>
 
@@ -141,7 +147,7 @@
     date = da.getFullYear() + "-" + (da.getMonth() + 1) + "-" + da.getDate();
 
     document.getElementById("check_result").innerHTML = " Date: " +
-      date + ",  Final Result: " +
+      date + ",  Final: " +
       total;
 
   }
