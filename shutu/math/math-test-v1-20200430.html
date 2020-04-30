@@ -91,74 +91,34 @@
         y = a;
       }
 
-      // -------------------------- 普通加法
-      if (i <= 3)
+
+      if (i <= 4)
       {
         op = "+";
         expected = x + y;
       }
-      // -------------------------- 负数加法
-      else if (i <= 4)
-      {
-        op = "+";
-        x = Math.round(Math.random() * diffMonths) + 2;
-        y = Math.round(Math.random() * diffMonths) + 2;
-        if (x == y)
-        {
-          y = y + 1;
-        }
-
-        x = -x;
-
-        expected = x + y;
-      }
-      // -------------------------- 普通减法
-      else if (i <= 6)
-      {
-        op = "-";
-        expected = x - y;
-      }
-      // -------------------------- 负数减法
       else if (i <= 7)
       {
-        x = Math.round(Math.random() * diffMonths) + 2;
-        y = Math.round(Math.random() * diffMonths) + 2;
-
         op = "-";
-        if (x == y)
-        {
-          y = y + 1;
-        }
-
-        if (x > y)
-        {
-          z = x;
-          x = y;
-          y = z;
-        }
-
         expected = x - y;
       }
-      
-      // -------------------------- 乘法
       else if (i <= 9)
       {
-        op = "x";
         x = Math.round(Math.random() * diffMonths) + 2;
         y = Math.round(Math.random() * diffMonths) + 2;
+        op = "x";
         expected = x * y;
       }
-      // -------------------------- 除法
       else
       {
         x = Math.round(Math.random() * diffMonths) + 2;
         y = Math.round(Math.random() * diffMonths) + 2;
+
         expected = x;
         x = x * y;
 
         op = "÷";
       }
-
 
       var data = "<tr><th>" + i + "</th> <td>" + x + "</td> <td>" + op +
         "</td> <td>" + y + "</td> <td>=</td> <td><input id='result" + i +
