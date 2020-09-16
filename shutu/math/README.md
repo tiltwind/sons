@@ -1,7 +1,6 @@
 # [书图寻意邻星](http://wongoo.gitee.io/sons)
 
-## shutu
-* [书图银行账号](/shutu/shutu-bank-account), wongoo, 2019-12-29
+## math
 
 ## Navigation
 [2018](/shutu/2018/)

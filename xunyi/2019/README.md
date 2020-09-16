@@ -1,4 +1,4 @@
-# [书图寻意](http://shutuxunyi.sisopipo.com)
+# [书图寻意邻星](http://wongoo.gitee.io/sons)
 
 ## 2019
 * [寻意发烧记录](/xunyi/2019/20191124-have-a-fever), wongoo, 2019-11-24

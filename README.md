@@ -1,8 +1,9 @@
-# [书图寻意](http://shutuxunyi.sisopipo.com)
+# [书图寻意邻星](http://wongoo.gitee.io/sons)
 
 ## sons
 
 ## Navigation
+[linxing](/linxing/)
 [medicine](/medicine/)
 [shutu](/shutu/)
 [xunyi](/xunyi/)
@@ -13,6 +14,7 @@
  [记录](/category/记录)
  [经验](/category/经验)
  [成长](/category/成长)
+ [小学](/category/小学)
  [感悟](/category/感悟)
  [伤病](/category/伤病)
 
@@ -31,5 +33,6 @@
  [感触](/tag/感触)
  [幼儿园](/tag/幼儿园)
  [伤病](/tag/伤病)
+ [自行车](/tag/自行车)
  [腹泻](/tag/腹泻)
  [出生](/tag/出生)
