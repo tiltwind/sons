@@ -1,4 +1,6 @@
 [linxing](/linxing/)
+[math](/math/)
 [medicine](/medicine/)
+[programming](/programming/)
 [shutu](/shutu/)
 [xunyi](/xunyi/)
