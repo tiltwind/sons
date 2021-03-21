@@ -1,6 +1,7 @@
 # [书图寻意邻星](https://wongoo.gitee.io/sons)
 
 ## 2021
+* [犯错](/shutu/2021/2021-03-21-mistakes), wongoo, 2021-03-21
 * [爱弟弟](/shutu/2021/2021-03-21-love-brother), wongoo, 2021-03-21
 
 ## Navigation
