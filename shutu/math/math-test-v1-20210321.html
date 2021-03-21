@@ -42,29 +42,21 @@
 </head>
 
 <body onbeforeunload="check_unnload()">
-  <div id="container" style="display: none;">
-    <div class="noprint" style="text-align: center;" id="time_container">Time Usage: <font id="time_usage"></font>
-    </div>
-    <table id="math_table">
-      <tr>
-        <th>NO.</th>
-        <th>First</th>
-        <th>OP</th>
-        <th>Second</th>
-        <th>Equal</th>
-        <th>Result</th>
-        <th>Check</th>
-      </tr>
-    </table>
-    <br>
-    <button class="noprint" onclick="window.print()">print</button>
-    <button class="noprint" onclick="check()">check</button>
-    <font id="check_result" color="blue"></font>
-  </div>
-
-  <div id="start_container">
-    <button onclick="init_page()">start</button>
-  </div>
+  <table id="math_table">
+    <tr>
+      <th>NO.</th>
+      <th>First</th>
+      <th>OP</th>
+      <th>Second</th>
+      <th>Equal</th>
+      <th>Result</th>
+      <th>Check</th>
+    </tr>
+  </table>
+  <br>
+  <button class="noprint" onclick="window.print()">print</button>
+  <button class="noprint" onclick="check()">check</button>
+  <font id="check_result" color="blue"></font>
 </body>
 
 </html>
@@ -77,71 +69,8 @@
 
   window.onbeforeunload = check_unload;
 
-  let startTime = 0;
-
-  function getTimeUsage()
-  {
-    let secondUsage = parseInt((new Date().getTime() - startTime)/1000);
-
-    let usage = "";
-    let value = parseInt(secondUsage / (60 * 60));
-    if (value >= 10)
-    {
-      usage += value;
-    }
-    else
-    {
-      usage += "0" + value;
-    }
-    usage += ":"
-
-    secondUsage = secondUsage % (60 * 60);
-
-    value = parseInt(secondUsage / (60))
-    if (value >= 10)
-    {
-      usage += value;
-    }
-    else
-    {
-      usage += "0" + value;
-    }
-    usage += ":"
-
-    value = parseInt(secondUsage % 60);
-    if (value >= 10)
-    {
-      usage += value;
-    }
-    else
-    {
-      usage += "0" + value;
-    }
-    return usage;
-  }
-
-  var showTimeUsageTimer;
-  var timeUsageTimerStop = false;
-
-  function showTimeUsage()
-  {
-    document.getElementById("time_usage").innerText = getTimeUsage();
-    if (!timeUsageTimerStop){
-      showTimeUsageTimer = setTimeout("showTimeUsage()", 1000)
-    }
-  }
-
-  function stopShowTimeUsage()
-  {
-    timeUsageTimerStop = true;
-  }
-
-
   function init_page()
   {
-    document.getElementById("start_container").style.display = "none";
-    document.getElementById("container").style.display = "";
-
     var mathTable = document.getElementById("math_table");
     for (var i = 1; i <= 10; i++)
     {
@@ -210,7 +139,7 @@
 
         expected = x - y;
       }
-
+      
       // -------------------------- 乘法
       else if (i <= 9)
       {
@@ -237,16 +166,10 @@
         "'></td></tr>";
 
       mathTable.innerHTML = mathTable.innerHTML + data;
-
-
-      // start time usage timer
-      startTime = new Date().getTime();
-      timeUsageTimerStop = false;
-      showTimeUsage();
     }
   }
 
-  //init_page();
+  init_page();
 
   function check()
   {
@@ -269,15 +192,9 @@
     da = new Date();
     date = da.getFullYear() + "-" + (da.getMonth() + 1) + "-" + da.getDate();
 
-    let resultMessage = " Date: " + date + ",  Final: " + total + " Time: " +
-      getTimeUsage();
+    document.getElementById("check_result").innerHTML = " Date: " +
+      date + ",  Final: " +
+      total;
 
-    document.getElementById("check_result").innerHTML = resultMessage;
-
-    if (total == 100)
-    {
-      stopShowTimeUsage();
-      document.getElementById("time_container").style.display="none";
-    }
   }
 </script>
