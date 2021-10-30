@@ -1,7 +1,9 @@
 
+ [game](/category/game)
  [医学](/category/医学)
  [学习](/category/学习)
  [记录](/category/记录)
+ [teaching](/category/teaching)
  [经验](/category/经验)
  [成长](/category/成长)
  [小学](/category/小学)

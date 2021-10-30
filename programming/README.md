@@ -10,4 +10,5 @@
 [parent](/parent/)
 [programming](/programming/)
 [shutu](/shutu/)
+[teaching](/teaching/)
 [xunyi](/xunyi/)
