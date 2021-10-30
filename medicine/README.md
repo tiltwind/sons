@@ -1,4 +1,4 @@
-# [书图寻意邻星](https://wongoo.gitee.io/sons)
+# [SONS](https://wongoo.github.io/sons)
 
 ## medicine
 * [病毒和细菌](/medicine/virus-and-germ), wongoo, 2019-11-24

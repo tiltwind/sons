@@ -1,4 +1,4 @@
-# [书图寻意邻星](https://wongoo.gitee.io/sons)
+# [SONS](https://wongoo.github.io/sons)
 
 ## parent
 * [父母学习](/parent/parent-learning), wongoo, 2019-12-29

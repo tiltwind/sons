@@ -1,4 +1,4 @@
-# [书图寻意邻星](https://wongoo.gitee.io/sons)
+# [SONS](https://wongoo.github.io/sons)
 
 ## 2019
 * [华夏学校面试问题反馈](/shutu/2019/20191228-mingde-interview), wongoo, 2019-12-28

@@ -1,4 +1,4 @@
-# [书图寻意邻星](https://wongoo.gitee.io/sons)
+# [SONS](https://wongoo.github.io/sons)
 
 ## shutu
 * [书图相关](/shutu/shutu-links), wongoo, 2019-12-29

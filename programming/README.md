@@ -1,4 +1,4 @@
-# [书图寻意邻星](https://wongoo.gitee.io/sons)
+# [SONS](https://wongoo.github.io/sons)
 
 ## programming
 * [少儿编程目标指引](/programming/programming_teach_guide), wongoo, 2020-09-19

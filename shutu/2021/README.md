@@ -1,4 +1,4 @@
-# [书图寻意邻星](https://wongoo.gitee.io/sons)
+# [SONS](https://wongoo.github.io/sons)
 
 ## 2021
 * [还会上课发出怪声](/shutu/2021/2021-03-31-diary), wongoo, 2021-03-31

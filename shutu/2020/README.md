@@ -1,4 +1,4 @@
-# [书图寻意邻星](https://wongoo.gitee.io/sons)
+# [SONS](https://wongoo.github.io/sons)
 
 ## 2020
 * [2020 家庭作业](/shutu/2020/2020-home-work), wongoo, 2020-02-13

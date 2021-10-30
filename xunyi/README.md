@@ -1,4 +1,4 @@
-# [书图寻意邻星](https://wongoo.gitee.io/sons)
+# [SONS](https://wongoo.github.io/sons)
 
 ## xunyi
 * [寻意银行账号](/xunyi/xunyi-bank-account), wongoo, 2019-12-29
