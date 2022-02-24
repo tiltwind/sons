@@ -1,12 +1,12 @@
-<html>
+<html lang="en">
 
 <head>
-  <style type="text/css" media="print">
+  <style media="print">
     .noprint {
       display: none;
     }
   </style>
-  <style type="text/css">
+  <style>
     body {
       text-align: center;
       font-size: 40px;
@@ -16,7 +16,7 @@
     button {
       height: 45px;
       width: 120px;
-      font-size: 40px;
+      font-size: 30px;
     }
 
     table {
@@ -39,6 +39,7 @@
       width: 100px;
     }
   </style>
+  <title>math test</title>
 </head>
 
 <body onbeforeunload="check_unnload()">
@@ -57,9 +58,10 @@
       </tr>
     </table>
     <br>
+    <span id="check_result" style="color: blue; "></span>
+    <br>
     <button class="noprint" onclick="window.print()">print</button>
     <button class="noprint" onclick="check()">check</button>
-    <font id="check_result" color="blue"></font>
   </div>
 
   <div id="start_container">
@@ -71,8 +73,8 @@
 <script type="text/javascript">
   function check_unload(e)
   {
-    var e = window.event || e;
-    e.returnValue = ("确定离开当前页面吗？");
+    let ev = window.event || e;
+    ev.returnValue = "确定离开当前页面吗？";
   }
 
   window.onbeforeunload = check_unload;
@@ -120,8 +122,8 @@
     return usage;
   }
 
-  var showTimeUsageTimer;
-  var timeUsageTimerStop = false;
+  let showTimeUsageTimer;
+  let timeUsageTimerStop = false;
 
   function showTimeUsage()
   {
@@ -142,8 +144,8 @@
     document.getElementById("start_container").style.display = "none";
     document.getElementById("container").style.display = "";
 
-    var mathTable = document.getElementById("math_table");
-    for (var i = 1; i <= 10; i++)
+    let mathTable = document.getElementById("math_table");
+    for (let i = 1; i <= 10; i++)
     {
       let startDate = new Date();
       startDate.setFullYear(2020, 10, 1)
@@ -151,16 +153,18 @@
         60 * 1000));
       let diffMonths = Math.ceil(diffDays / 30);
 
-      a = Math.round(Math.random() * diffDays) + 5;
-      b = Math.round(Math.random() * (diffDays - 20)) + 5;
-      x = a;
-      y = b;
+      let a = Math.round(Math.random() * diffDays) + 5;
+      let b = Math.round(Math.random() * (diffDays - 20)) + 5;
+      let x = a;
+      let y = b;
 
       if (b > a)
       {
         x = b;
         y = a;
       }
+      let op;
+      let expected;
 
       // -------------------------- 普通加法
       if (i <= 3)
@@ -174,7 +178,7 @@
         op = "+";
         x = Math.round(Math.random() * diffMonths) + 2;
         y = Math.round(Math.random() * diffMonths) + 2;
-        if (x == y)
+        if (x === y)
         {
           y = y + 1;
         }
@@ -196,14 +200,14 @@
         y = Math.round(Math.random() * diffMonths) + 2;
 
         op = "-";
-        if (x == y)
+        if (x === y)
         {
           y = y + 1;
         }
 
         if (x > y)
         {
-          z = x;
+          let z = x;
           x = y;
           y = z;
         }
@@ -250,31 +254,30 @@
 
   function check()
   {
-    var total = 0;
-    for (i = 1; i <= 10; i++)
+    let total = 0;
+    for (let i = 1; i <= 10; i++)
     {
       let r = document.getElementById("result" + i);
       let msg = document.getElementById("msg" + i);
-      if (parseInt(r.value) == parseInt(r.getAttribute("expected")))
+      if (parseInt(r.value) === parseInt(r.getAttribute("expected")))
       {
-        msg.innerHTML = "<font color=green>10</font>";
+        msg.innerHTML = "<span style=\"color: green; \">10</span>";
         total += 10;
       }
       else
       {
-        msg.innerHTML = "<font color=red>0</font>"
+        msg.innerHTML = "<span style=\"color: red; \">0</span>"
       }
     }
 
-    da = new Date();
-    date = da.getFullYear() + "-" + (da.getMonth() + 1) + "-" + da.getDate();
+    let da = new Date();
+    let date = da.getFullYear() + "-" + (da.getMonth() + 1) + "-" + da.getDate();
 
-    let resultMessage = " Date: " + date + ",  Final: " + total + " Time: " +
-      getTimeUsage();
+    let resultMessage = " Date: " + date + ",  Final: " + total + " Time: " + getTimeUsage();
 
     document.getElementById("check_result").innerHTML = resultMessage;
 
-    if (total == 100)
+    if (total === 100)
     {
       stopShowTimeUsage();
       document.getElementById("time_container").style.display="none";
