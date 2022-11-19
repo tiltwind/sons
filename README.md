@@ -1,6 +1,7 @@
 # [SONS](https://wongoo.github.io/sons)
 
 ## sons
+* [教育日记](/diary-2022), wongoo, 2022-01-01
 
 ## Navigation
 [linxing](/linxing/)
@@ -14,10 +15,10 @@
 
 ## Categories
 
+ [记录](/category/记录)
  [game](/category/game)
  [医学](/category/医学)
  [学习](/category/学习)
- [记录](/category/记录)
  [teaching](/category/teaching)
  [经验](/category/经验)
  [成长](/category/成长)
@@ -27,12 +28,12 @@
 
 ## Tags
 
+ [书图](/tag/书图)
  [game](/tag/game)
  [病毒](/tag/病毒)
  [细菌](/tag/细菌)
  [发烧](/tag/发烧)
  [学习](/tag/学习)
- [书图](/tag/书图)
  [习惯](/tag/习惯)
  [家教](/tag/家教)
  [寻意](/tag/寻意)
